@@ -1,1 +1,0 @@
-Viết chương trình nhập vào cạnh hình vuông, in ra chu vi và diện tích.
