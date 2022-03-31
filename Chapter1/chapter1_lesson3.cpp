@@ -14,8 +14,8 @@ main(){
 	cout << "Nhap vao gia tri ky tu: ";
 	cin >> Ky_tu;
 	cout << "\n-------------------------------------- \n";
-	cout << "So thuc: " << So_thuc << '\n';
-	cout << "So nguyen: " << So_nguyen << '\n';
-	cout << "Nguyen dai: " << So_nguyen_dai << '\n';
-	cout << "Ky tu: " << Ky_tu << '\n' << endl;
+	cout << "So thuc: " << So_thuc << endl;
+	cout << "So nguyen: " << So_nguyen << endl;
+	cout << "Nguyen dai: " << So_nguyen_dai << endl;
+	cout << "Ky tu: " << Ky_tu;
 }

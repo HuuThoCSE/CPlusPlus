@@ -11,7 +11,7 @@ main(){
 	t=t/10;
 	so2 = t%10;
 	t=t/10;
-	cout << "Tong la: " << t + so2 + so3 + so4 << endl;
+	cout << "Tong la: " << so4 + so3 + so2 + t << endl;
 	cout << "So dau la: " << t << endl;
 	cout << "So cuoi la: " << so4 << endl;
 }
