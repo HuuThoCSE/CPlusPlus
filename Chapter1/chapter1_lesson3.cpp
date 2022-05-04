@@ -5,7 +5,7 @@ main(){
 	int So_nguyen;
 	long So_nguyen_dai;
 	char Ky_tu;
-	cout << "Nhap vao gia tri so thu: ";
+	cout << "Nhap vao gia tri so thuc: ";
 	cin >> So_thuc;
 	cout << "Nhap vao gia tri so nguyen: ";
 	cin >> So_nguyen;
@@ -13,7 +13,7 @@ main(){
 	cin >> So_nguyen_dai;
 	cout << "Nhap vao gia tri ky tu: ";
 	cin >> Ky_tu;
-	cout << "\n-------------------------------------- \n";
+	cout << "-------------------------------------- \n";
 	cout << "So thuc: " << So_thuc << endl;
 	cout << "So nguyen: " << So_nguyen << endl;
 	cout << "Nguyen dai: " << So_nguyen_dai << endl;
