@@ -42,19 +42,17 @@ main(){
 	
 	int X, m;
 	cout << "\nNhap vao phan tu: "; cin >> X;
-	cout << "\nLan thu: "; cin >> m;
+	cout << "Lan thu: "; cin >> m;
 	
-	int dem=0, vt=0;
-	for(i=0; i<n; i++){
-		if(X==a[i]) {
-			dem++;
-			if(dem==m) {
-				vt = i;
-				break;
-			}
-		}
+	int dem=0; i=0;
+	while (i<=n-1 && dem < m){
+		if(a[i] == X) dem ++;
+		i++;
 	}
-	cout << "Phan tu " << X << " xuat hien lan thu " << m << " tai vi tri thu " << vt << " trong mang." << endl;
+	if(i <= n) cout << "Vi tri " << i - 1;
+	else cout << "Khong co";
+	
+//	cout << "Phan tu " << X << " xuat hien lan thu " << m << " tai vi tri thu " << vt << " trong mang." << endl;
 	
 	//In ra mang tang dan
 	for(i=0; i<n; i++){
