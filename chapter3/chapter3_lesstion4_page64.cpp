@@ -18,6 +18,7 @@ main(){
 	
 	// In ra vi tri cac phan tu lon nhat co trong day
 	
+	
 	// Tinh tri trung binh cua ca phan tu duong co trong day.
 	s = 0;
 	dem = 0;
@@ -28,4 +29,12 @@ main(){
 		}
 	}
 	cout << "Gia tri trung binh cua cac phan tu duong: " << s/dem;
+	
+	// Dem so phan tu la luy thua cua K
+	int k;
+	cout << "Nhap k= "; cin >> k;
+	for(i=0; i<n ; i++){
+		
+	}
+
 }
